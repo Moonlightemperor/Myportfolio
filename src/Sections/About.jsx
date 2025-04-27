@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Globe from 'react-globe.gl';
 import Buttons from '../Components/Buttons';
 
+
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
@@ -65,7 +66,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
               <p className="grid-subtext">I&apos;m based in Prayagraj UttarPradesh, India and open to remote work worldwide.</p>
-              <Buttons name="Contact Me" isBeam containerClass="w-full mt-10" />
+             <a href="#contact">
+             <Buttons  name="Contact Me" isBeam containerClass="w-full mt-10" />
+             </a>
             </div>
           </div>
         </div>

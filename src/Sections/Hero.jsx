@@ -86,7 +86,7 @@ rotation={[0,Math.PI, 0]}/>
                 rotation={[0, Math.PI, 0]}
               /> */}
               </HeroCamera>
-              <group scale={1}>
+              <group  scale={1}>
                 <Target position={sizes.targetPosition}/>
               <ReactLogo position = {sizes.reactLogoPosition}/>
               <Cube position={sizes.cubePosition}/>
